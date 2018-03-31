@@ -1,0 +1,18 @@
+uuid: c83e5b7f-1039-4e54-a825-d4c65ecb4b16
+langcode: en
+status: true
+dependencies:
+  module:
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    description: ''
+id: api_provider
+label: api_provider
+weight: 6
+is_admin: null
+permissions:
+  - 'create attendance content'
+  - 'edit own attendance content'
+  - 'flag attendance'
+  - 'restful post user_registration'

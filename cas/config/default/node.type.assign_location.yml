@@ -1,0 +1,17 @@
+uuid: b57aaacf-823e-4fac-975d-5bcd105bf84d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Assign Location'
+type: assign_location
+description: 'Admin Assign location to the list of employees'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false
